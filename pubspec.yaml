@@ -1,0 +1,43 @@
+name: lumistock
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  curved_navigation_bar: ^1.0.3
+  flutter:
+    sdk: flutter
+  flutter_feather_icons: ^2.0.0
+  fluttertoast: ^8.2.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  animations: ^2.0.11
+  feather_icons: ^1.2.0
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/fonts/
+    - assets/images/placeholder.jpg
